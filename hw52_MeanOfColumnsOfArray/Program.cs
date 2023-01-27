@@ -60,4 +60,4 @@ Console.WriteLine();
 
 answer = MeanOfColumnsOfArray(massive);
 
-Console.WriteLine("Значения среднеарифметического по каждому столбцу = [" + string.Join(", ", answer) + "]");
+Console.WriteLine("Значения среднеарифметического по каждому столбцу: " + string.Join("; ", answer));
